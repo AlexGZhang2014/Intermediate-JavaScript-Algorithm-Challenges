@@ -3,6 +3,7 @@ We will pass you an array of two numbers. Return the sum of those two numbers pl
 
 The lowest number will not always come first.
 
+Solution:
 function sumAll(arr) {
   let sum = 0;
   const sortedArr = arr.sort((a, b) => a - b);
