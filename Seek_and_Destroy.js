@@ -4,6 +4,7 @@ You will be provided with an initial array (the first argument in the destroyer 
 Note
 You have to use the arguments object.
 
+Solution:
 function destroyer(arr) {
   let targets = [...arguments].slice(1);
   let finalArr = [];
